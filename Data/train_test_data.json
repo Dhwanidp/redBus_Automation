@@ -1,0 +1,12 @@
+[
+    {
+        "test_name": "Delhi to Mumbai",
+        "from": "Delhi",
+        "to": "Mumbai",
+        "target_month": "January 2026",
+        "target_day": "15",
+        "free_cancellation": "yes",
+        "ticket_class_contains": "Sleeper",
+        "top_n": 2
+    }
+]
