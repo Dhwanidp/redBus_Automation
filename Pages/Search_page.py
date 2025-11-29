@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from redbus_Automation.utils.locators_utils import (
+from utils import (
     suggestion_wrapper,
     search_category,
     suggestion_list_header,

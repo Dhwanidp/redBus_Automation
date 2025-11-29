@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
 
-import utils.locators_utils as locators_utils
+import utils as locators_utils
 
 def pytest_addoption(parser):
     parser.addoption("--browser_name", action="store", default="chrome")

@@ -1,4 +1,4 @@
-from redbus_Automation.utils.locators_utils import train_icon
+from utils import train_icon
 
 class landing_page:
     def __init__(self, driver):

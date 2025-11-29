@@ -1,7 +1,7 @@
-from redbus_Automation.Pages.Landing_page import landing_page
-from redbus_Automation.Pages.Search_page import train_search_page
-from redbus_Automation.Pages.Trains_page import trains_page
-from redbus_Automation.utils.locators_utils import source_input
+from Pages.Landing_page import landing_page
+from Pages.Search_page import train_search_page
+from Pages.Trains_page import trains_page
+from utils import source_input
 import pytest
 @pytest.mark.usefixtures("setup")
 class TestSearchTrains:
