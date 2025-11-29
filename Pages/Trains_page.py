@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from utils import (
+from utils.locators_utils import (
     total_trains,
     ticket_class_arrow,
     row_class_xpath,

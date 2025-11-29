@@ -1,7 +1,7 @@
 from Pages.Landing_page import landing_page
 from Pages.Search_page import train_search_page
 from Pages.Trains_page import trains_page
-from utils import source_input
+from utils.locators_utils import source_input
 import pytest
 @pytest.mark.usefixtures("setup")
 class TestSearchTrains:
